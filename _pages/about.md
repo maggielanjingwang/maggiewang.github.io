@@ -32,3 +32,7 @@ Projects
 * I collaborated with team memebers in a start-up compamy to develop cell image recognition for counting biological cell () from labotory by using Faster_rcnn, mask_rcnn in 2021.
 
 ![Demo](https://github.com/maggielanjingwang/maggiewang.github.io/blob/master/images/44.mp4)
+
+https://github.com/user-attachments/assets/d37c698f-3f6c-407e-a7c9-78f004bc6df2
+
+
