@@ -19,8 +19,8 @@ Publications
 * Oral presentation in AHA Scientific Section in 2023.
 * Full manuscript is under review by JAHA
 
-======
 Working Papers
+======
 1. Abstract: Pulmonary Hypertension is Highly Prevalent in Rheuma5c Heart Disease in sub-Saharan Africa: A Systema5c Review and Meta-Analysis
 * Accepted by PVRI
 2. Abstract: The Prevalence of Pulmonary Hypertension in Sickle Cell Disease in sub-Saharan Africa: A Systema>c Review and Meta-Analysis
