@@ -34,8 +34,9 @@ Projects
 <video src="https://github.com/user-attachments/assets/1db4e07d-07b2-4244-9a5d-a5575760296b" controls="controls" style="max-width: 730px;">
 </video>
 
-
-
+* Smile Detection
+<video src="https://github.com/user-attachments/assets/1ebaf0be-0060-4970-a02b-2c4e92b15667" controls="controls" style="max-width: 730px;">
+</video>
 
 
 
