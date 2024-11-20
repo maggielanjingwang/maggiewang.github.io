@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Me"
+title: "ME"
 permalink: /me/
 author_profile: true
 redirect_from:
@@ -9,5 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Something about myself!
-11111
+Something about myself

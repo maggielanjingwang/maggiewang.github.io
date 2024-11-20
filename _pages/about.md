@@ -21,9 +21,10 @@ Publications
 
 Working Papers
 ======
-1. Abstract: Pulmonary Hypertension is Highly Prevalent in Rheuma5c Heart Disease in sub-Saharan Africa: A Systematic Review and Meta-Analysis
-2. Abstract: The Prevalence of Pulmonary Hypertension in Sickle Cell Disease in sub-Saharan Africa: A Systematic Review and Meta-Analysis
-3. Abstract: Prevalence of Pulmonary Hypertension among people living with HIV in sub-Saharan Africa: A Systematic Review of Evidence
+1. Abstract: Pulmonary Hypertension is Highly Prevalent in Rheuma5c Heart Disease in sub-Saharan Africa: A Systematic Review and Meta-Analysis.
+2. Abstract: The Prevalence of Pulmonary Hypertension in Sickle Cell Disease in sub-Saharan Africa: A Systematic Review and Meta-Analysis.
+3. Abstract: Prevalence of Pulmonary Hypertension among people living with HIV in sub-Saharan Africa: A Systematic Review of Evidence.
+
 (All three abstracts accepted by PVRI conference 2025)
 
 Projects
