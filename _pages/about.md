@@ -21,15 +21,14 @@ Publications
 
 Working Papers
 ======
-1. Abstract: Pulmonary Hypertension is Highly Prevalent in Rheuma5c Heart Disease in sub-Saharan Africa: A Systema5c Review and Meta-Analysis
-* Accepted by PVRI
-2. Abstract: The Prevalence of Pulmonary Hypertension in Sickle Cell Disease in sub-Saharan Africa: A Systema>c Review and Meta-Analysis
-* Accepted by PVRI
+1. Abstract: Pulmonary Hypertension is Highly Prevalent in Rheuma5c Heart Disease in sub-Saharan Africa: A Systematic Review and Meta-Analysis
+2. Abstract: The Prevalence of Pulmonary Hypertension in Sickle Cell Disease in sub-Saharan Africa: A Systematic Review and Meta-Analysis
 3. Abstract: Prevalence of Pulmonary Hypertension among people living with HIV in sub-Saharan Africa: A Systematic Review of Evidence
+(All three abstracts accepted by PVRI conference 2025)
 
 Projects
 ------
-* I collaborated with team memebers in a start-up compamy to develop cell image recognition for counting biological cell () from labotory by using Faster_rcnn, mask_rcnn in 2021.
+* I collaborated with team memebers in a start-up compamy to develop cell image recognition for counting biological cell from labotory by using Faster_rcnn, mask_rcnn in 2021.
 
 <video src="https://github.com/user-attachments/assets/1db4e07d-07b2-4244-9a5d-a5575760296b" controls="controls" style="max-width: 730px;">
 </video>
