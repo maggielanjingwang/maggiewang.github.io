@@ -16,6 +16,24 @@ Education
 
 Work experience
 ======
+* American Heart Association
+  * Data Science Team – Data Science Intern Feb 2022 – May 2023 
+  * Data Science Team – Data Science Fellow July 2022 – Aug 2023
+    * Data Science: GWTG registry data: Data Preprocessing and Database Design on Precision Medicine Platform
+      * Led and designed the data preprocessing automated pipelines in Python for over 13 million registry records, with the goal of
+cleaning, transforming, and integrating medical data to prepare them for data quality control and data analysis.
+      * Developed a cloud-based database platform system utilizing the Python-based Django web framework to host and serve more
+than 13 million medical data records on the AWS servers.
+    * Research
+      * Worked with clinical researchers on research proposals, conducting comprehensive statistical analyses and hypothesis tests using data from AHA’s Get With The Guidelines (GWTG).
+    * Periodic Table of Food Initiative (PTFI): Food Research Database Design
+      * Designed and maintained data pipelines to collect, clean, and integrate food-related datasets into the database, collaborating with
+food researchers to ensure data accuracy and accessibility for research and analysis.
+    * Broad Institute: AnVIL (Terra) Genomics Platform Evaluation
+      * Collaborated with doctors and clinical researchers to identify the genomics platform capabilities, limitations, and areas for
+improvement, and evaluate the performance of platforms in clinical applications.
+
+
 * ByteDance - TikTok: Tiktok Overseas e-commerce – Data Analyst Intern
   * Analyzed product datasets and sorted out 300+ potential hot-selling products for the sales direction of e-business live
 broadcast in the Indonesian market. Organized 6 interviews with oversea managers to gather insights on competitors and product reviews, and analyzed external data and sources including Shopee, Lazada, Instagram to evaluate product strategy.
