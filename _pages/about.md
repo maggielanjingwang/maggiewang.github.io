@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student of Biostatistics at George Washington University (start 2023). I received my B.A in Data Science from UC Berkeley. Before GWU, Maggie was a Data Science Fellow at the American Heart Association. She works primarily on building the AHA’s database and supporting the [Precision Medicine Platform](https://precision.heart.org/) (PMP). The database and PMP enable researchers to access data, and comprehensive documentation from the AHA Get With the Guideline registries. In her role, Maggie is helping to build the database and a visualization platform and write tutorials on PMP that allow researchers to better utilize the analytical tools to dig deeper into the cardiovascular disease. My specialties include data science, data analysis, database design, machine learning, and big medical data.
 
-My research interests is develop machine learning methods with medical data, such as EHRs, registry to improve patient outcomes in healthcare and medicine.
+My research interests include big data analytics, data mining, database systems, machine learning and AI for healthcare research, NLP, and computational medicine. Based on my past experience handling vast medical records, I am particularly drawn to the research focus of Biomedical Data Science, especially in areas such as EHRs, registry data, and medical imaging for addressing clinical and translational challenges.
 
 
 Publications
