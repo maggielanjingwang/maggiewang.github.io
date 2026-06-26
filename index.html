@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,6 +20,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body>
   <!-- Scroll progress -->
@@ -50,7 +52,7 @@
   <main id="top">
     <!-- ABOUT / INTRO -->
     <section class="section section--top" id="about">
-      <div class="intro reveal">
+      <div class="intro">
         <p class="section__eyebrow">University of Washington · Biomedical Informatics</p>
         <h1 class="intro__name">Lanjing <span class="gradient-text">(Maggie)</span> Wang</h1>
         <p class="intro__role">PhD Student, Biomedical Informatics</p>
@@ -68,11 +70,11 @@
       </div>
 
       <div class="about">
-        <div class="about__photo reveal">
+        <div class="about__photo">
           <img src="assets/img/profile.jpg" alt="Lanjing (Maggie) Wang" loading="lazy" />
           <div class="about__badge"><span>Now</span> UW · Seattle</div>
         </div>
-        <div class="about__body reveal">
+        <div class="about__body">
           <p>
             I'm a PhD student in <strong>Biomedical Informatics at the University of Washington</strong>,
             working at the intersection of large language models, clinical evidence, and real-world data.
@@ -430,6 +432,5 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
 </body>
 </html>

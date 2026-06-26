@@ -444,8 +444,9 @@ strong { font-weight: 600; color: var(--ink); }
   font-size: .85rem; color: var(--muted); font-family: var(--mono);
 }
 
-/* ---------- reveal animation ---------- */
-.reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.8,.2,1); }
+/* ---------- reveal animation (only when JS is active, so content never stays hidden) ---------- */
+.reveal { transition: opacity .7s ease, transform .7s cubic-bezier(.2,.8,.2,1); }
+.js .reveal { opacity: 0; transform: translateY(24px); }
 .reveal.is-in { opacity: 1; transform: none; }
 
 /* ---------- responsive ---------- */
@@ -484,5 +485,5 @@ strong { font-weight: 600; color: var(--ink); }
 /* ---------- reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
-  .reveal { opacity: 1; transform: none; }
+  .reveal, .js .reveal { opacity: 1; transform: none; }
 }

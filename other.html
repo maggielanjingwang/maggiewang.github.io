@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,6 +15,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body>
   <!-- Scroll progress -->
@@ -44,14 +46,14 @@
   <main id="top">
     <!-- OTHER -->
     <section class="section section--top" id="other">
-      <div class="section__head reveal">
+      <div class="section__head">
         <span class="section__eyebrow">Other</span>
         <h2 class="section__title">Off the clock</h2>
         <p class="section__intro">Beyond research: a couple of things I love.
           <a href="index.html#about">← back to main</a></p>
       </div>
       <div class="beyond">
-        <article class="beyond__card reveal">
+        <article class="beyond__card">
           <h3>Flying ✈︎</h3>
           <p>I'm learning to fly the Cessna 172 and recently passed the written exam for my Private Pilot
             License (PPL). Earning my wings is the next milestone.</p>
@@ -60,7 +62,7 @@
             <img src="https://github.com/user-attachments/assets/9d56f0ac-129c-43ea-b887-c736a8f6b52a" alt="In the cockpit" loading="lazy" />
           </div>
         </article>
-        <article class="beyond__card reveal">
+        <article class="beyond__card">
           <h3>Cooking ✦</h3>
           <p>I treat cooking like a data-science experiment. Every Lunar New Year I host friends for a spread
             of Chinese dishes. The feedback is overwhelmingly, statistically significant.</p>
@@ -92,6 +94,5 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
