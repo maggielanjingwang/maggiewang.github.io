@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lanjing (Maggie) Wang · Biomedical Informatics</title>
+  <meta name="description" content="Lanjing (Maggie) Wang, PhD student in Biomedical Informatics at the University of Washington. Building LLMs and AI systems for clinical literature retrieval, evidence synthesis, and real-world EHR data." />
+  <meta name="author" content="Lanjing (Maggie) Wang" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lanjing (Maggie) Wang · Biomedical Informatics" />
+  <meta property="og:description" content="PhD student in Biomedical Informatics at the University of Washington. AI for health: LLMs for clinical literature, evidence synthesis, and real-world EHR data." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- Scroll progress -->
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- Nav -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="brand" aria-label="Home">
+        <span class="brand__mark">LW</span>
+        <span class="brand__name">Lanjing Wang</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about" data-nav>About</a>
+        <a href="#research" data-nav>Research</a>
+        <a href="#experience" data-nav>Experience</a>
+        <a href="#publications" data-nav>Publications</a>
+        <a href="other.html">Other</a>
+        <span class="nav__pill" id="navPill" aria-hidden="true"></span>
+      </nav>
+      <a href="assets/cv/CV_LanjingWang_2026_June.pdf" class="btn btn--sm" target="_blank" rel="noopener">CV</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ABOUT / INTRO -->
+    <section class="section section--top" id="about">
+      <div class="intro reveal">
+        <p class="section__eyebrow">University of Washington · Biomedical Informatics</p>
+        <h1 class="intro__name">Lanjing <span class="gradient-text">(Maggie)</span> Wang</h1>
+        <p class="intro__role">PhD Student, Biomedical Informatics</p>
+        <p class="intro__lede">
+          I build <strong>AI and LLM-based systems for clinical evidence</strong>, turning unstructured
+          clinical literature and real-world data into structured, decision-ready evidence for precision medicine.
+        </p>
+        <div class="intro__links" aria-label="Profiles">
+          <a href="mailto:lanjingw@uw.edu" class="iconlink">Email</a>
+          <a href="https://www.linkedin.com/in/maggie-lanjing-wang" class="iconlink" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/maggielanjingwang" class="iconlink" target="_blank" rel="noopener">GitHub</a>
+          <a href="assets/cv/CV_LanjingWang_2026_June.pdf" class="iconlink" target="_blank" rel="noopener">CV ↗</a>
+          <span class="iconlink iconlink--muted">Seattle, WA</span>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="about__photo reveal">
+          <img src="assets/img/profile.jpg" alt="Lanjing (Maggie) Wang" loading="lazy" />
+          <div class="about__badge"><span>Now</span> UW · Seattle</div>
+        </div>
+        <div class="about__body reveal">
+          <p>
+            I'm a PhD student in <strong>Biomedical Informatics at the University of Washington</strong>,
+            working at the intersection of large language models, clinical evidence, and real-world data.
+            My research develops LLM and agentic systems that retrieve, structure, and synthesize medical
+            knowledge, from clinical literature to electronic health records.
+          </p>
+          <p>
+            Before UW, I was a PhD student in <strong>Biostatistics at the George Washington University</strong>
+            and earned my <strong>B.A. in Data Science from UC Berkeley</strong>. I've built data and
+            modeling pipelines across the American Heart Association's registries, large-scale systematic
+            reviews, and clinical LLM research, all grounded in a statistical foundation of meta-analysis,
+            study design, and causal reasoning.
+          </p>
+          <p class="about__interests">
+            <span>Interests</span>
+            LLMs &amp; agentic systems for healthcare · clinical NLP &amp; retrieval · evidence synthesis ·
+            EHR &amp; real-world data · computational medicine · biostatistics
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section section--tint" id="research">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">01 · Research</span>
+        <h2 class="section__title">What I work on</h2>
+        <p class="section__intro">Four threads, one goal: making medical evidence machine-readable and
+          clinically actionable.</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">◆</div>
+          <h3>LLMs for Clinical Literature Retrieval</h3>
+          <p>Evaluation benchmarks and LLM-based retrieval for clinically relevant oncology literature, using
+            structured clinical schemas (treatment line, biomarkers, patient context) and guideline-informed
+            dynamic filters that improve retrieval precision.</p>
+          <div class="card__tags">
+            <span>LLMs</span><span>Retrieval</span><span>Oncology</span><span>AMIA 2026</span>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">◇</div>
+          <h3>Agentic Evidence Synthesis</h3>
+          <p>End-to-end clinical LLM pipelines and agentic literature-review workflows for automated study
+            screening, clinical context schema design, and statistical analysis for multi-source evidence
+            synthesis, with human-in-the-loop multi-agent systems.</p>
+          <div class="card__tags">
+            <span>Agents</span><span>Evidence Synthesis</span><span>Human-in-the-loop</span>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">▣</div>
+          <h3>EHR &amp; Real-World Evidence</h3>
+          <p>Scalable EHR infrastructure with an agent-based querying layer for cohort
+            construction and longitudinal analysis, quantifying guideline adoption and the lag from
+            clinical evidence to real-world practice, and structuring notes into outcomes (OS, PFS).</p>
+          <div class="card__tags">
+            <span>EHR</span><span>Cohorts</span><span>RWE</span>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">▤</div>
+          <h3>Biostatistics for Epidemiology &amp; Clinical Trials</h3>
+          <p>Meta-analysis, meta-regression, missing-data imputation, and sensitivity &amp; subgroup
+            analyses for the epidemiology, and multi-agentic, human-in-the-loop systems for systematic
+            literature reviews of clinical trials.</p>
+          <div class="card__tags">
+            <span>Meta-analysis</span><span>Epidemiology</span><span>Clinical Trials</span><span>STAI-X 2026</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">02 · Experience</span>
+        <h2 class="section__title">Where I've worked</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl reveal">
+          <div class="tl__rail"><span class="tl__dot"></span></div>
+          <div class="tl__body">
+            <div class="tl__top">
+              <span class="logo"><img src="assets/img/logos/uw.svg" alt="University of Washington logo" loading="lazy" /></span>
+              <h3>University of Washington</h3>
+              <span class="tl__date">Sep 2025 - Present</span>
+            </div>
+            <p class="tl__role">Research Rotations · Seattle, WA</p>
+            <ul class="tl__list">
+              <li><strong>LLM-based Clinical Literature</strong> <em>· Advisor: Dr. Lucy Lu Wang</em>: evaluation
+                benchmarks and LLM retrieval methods for oncology literature search; structured clinical
+                schemas and guideline-informed search filters.</li>
+              <li><strong>EHR Research</strong> <em>· Advisor: Dr. Gregory Roth</em>: scalable EHR
+                infrastructure with an agent-based querying layer; quantifying guideline adoption and the
+                evidence-to-practice lag in real-world data.</li>
+            </ul>
+            <div class="card__tags">
+              <span>LLMs</span><span>EHR</span><span>Clinical NLP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl reveal">
+          <div class="tl__rail"><span class="tl__dot"></span></div>
+          <div class="tl__body">
+            <div class="tl__top">
+              <span class="logo"><img src="assets/img/logos/hope-ai.svg" alt="Hope AI logo" loading="lazy" /></span>
+              <h3>Hope AI</h3>
+              <span class="tl__date">Jan 2025 - Apr 2026</span>
+            </div>
+            <p class="tl__role">Biomedical Data Science Researcher · Advisors: Dr. Will Ma &amp; Dr. Feifang Hu</p>
+            <ul class="tl__list">
+              <li>Developed end-to-end clinical LLM pipelines for large-scale clinical-trial literature
+                retrieval and evidence extraction, transforming unstructured literature into structured,
+                analysis-ready datasets for evidence synthesis, subgroup, pooling, and meta-analysis in oncology.</li>
+              <li>Designed agentic literature-review workflows integrating study screening, clinical context
+                schema design, and automated statistical analysis (manuscript in preparation).</li>
+              <li>Built LLM-based algorithms on large-scale Mayo Clinic EHR data to convert unstructured
+                clinical notes into structured outcomes (e.g., OS, PFS), enabling comparison between trial
+                literature and real-world EHR evidence.</li>
+            </ul>
+            <div class="card__tags">
+              <span>Clinical LLMs</span><span>Mayo Clinic EHR</span><span>Evidence Extraction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl reveal">
+          <div class="tl__rail"><span class="tl__dot"></span></div>
+          <div class="tl__body">
+            <div class="tl__top">
+              <span class="logo"><img src="assets/img/logos/gwu.svg" alt="George Washington University logo" loading="lazy" /></span>
+              <h3>George Washington University · Biostatistics Center</h3>
+              <span class="tl__date">Aug 2024 - Jul 2025</span>
+            </div>
+            <p class="tl__role">Senior Research Assistant · Advisor: Dr. Guoqing Diao</p>
+            <ul class="tl__list">
+              <li>Applied statistical methods for a large-scale systematic review on the epidemiology of
+                pulmonary hypertension in sub-Saharan Africa: meta-analysis, meta-regression, missing-data
+                imputation, and sensitivity analysis across multi-study datasets.</li>
+              <li>Conducted pooled analyses and subgroup heterogeneity analyses across HIV, sickle cell, and
+                rheumatic heart disease populations to support epidemiological modeling and manuscripts.</li>
+            </ul>
+            <div class="card__tags">
+              <span>Meta-analysis</span><span>Epidemiology</span><span>R</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl reveal">
+          <div class="tl__rail"><span class="tl__dot"></span></div>
+          <div class="tl__body">
+            <div class="tl__top">
+              <span class="logo"><img src="assets/img/logos/aha.png" alt="American Heart Association logo" loading="lazy" /></span>
+              <h3>American Heart Association</h3>
+              <span class="tl__date">Feb 2022 - Aug 2023</span>
+            </div>
+            <p class="tl__role">Data Science Fellow &amp; Intern · Advisors: Dr. Jennifer Hall &amp; Dr. Xue Feng</p>
+            <ul class="tl__list">
+              <li>Led automated Python pipelines processing 13M+ Get With The Guidelines registry records, and
+                built a cloud-based Django/AWS database platform powering the
+                <a href="https://precision.heart.org/" target="_blank" rel="noopener">Precision Medicine Platform</a>.</li>
+              <li>Partnered with clinical researchers on STEMI in-hospital mortality analyses across the COVID-19
+                pandemic; contributed to the Periodic Table of Food Initiative database and the Broad Institute
+                AnVIL (Terra) genomics-platform evaluation.</li>
+            </ul>
+            <div class="card__tags">
+              <span>Django · AWS</span><span>Registry Data</span><span>13M+ records</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl reveal">
+          <div class="tl__rail"><span class="tl__dot"></span></div>
+          <div class="tl__body">
+            <div class="tl__top">
+              <h3>Earlier industry</h3>
+              <span class="tl__date">2020 - 2021</span>
+            </div>
+            <p class="tl__role">Machine learning &amp; data analytics internships</p>
+            <ul class="tl__list">
+              <li><strong>Akai Technology</strong>, ML Intern: built biological cell-counting recognition with
+                Faster R-CNN / Mask R-CNN
+                (<a href="https://github.com/user-attachments/assets/1db4e07d-07b2-4244-9a5d-a5575760296b" target="_blank" rel="noopener">demo</a>).</li>
+              <li><strong>ByteDance · TikTok</strong>, <strong>Ernst &amp; Young</strong>, and <strong>JD.com</strong>:
+                data &amp; business analytics across e-commerce, consulting (RPA), and warehouse operations.</li>
+            </ul>
+            <div class="logo-row" aria-label="Companies">
+              <span class="logo" title="Akai Technology"><img src="assets/img/logos/akai.svg" alt="Akai Technology logo" loading="lazy" /></span>
+              <span class="logo" title="ByteDance · TikTok"><img src="assets/img/logos/tiktok.png" alt="TikTok logo" loading="lazy" /></span>
+              <span class="logo" title="Ernst &amp; Young"><img src="assets/img/logos/ey.png" alt="Ernst &amp; Young logo" loading="lazy" /></span>
+              <span class="logo" title="JD.com"><img src="assets/img/logos/jd.png" alt="JD.com logo" loading="lazy" /></span>
+            </div>
+            <div class="demos">
+              <span class="demos__label">Demos</span>
+              <div class="demos__grid">
+                <figure class="demo">
+                  <video src="https://github.com/user-attachments/assets/1db4e07d-07b2-4244-9a5d-a5575760296b" controls muted preload="none" playsinline></video>
+                  <figcaption>Cell-counting recognition · Faster / Mask R-CNN</figcaption>
+                </figure>
+                <figure class="demo">
+                  <video src="https://github.com/user-attachments/assets/4430586d-975f-486b-a793-3a77c8033590" controls muted preload="none" playsinline></video>
+                  <figcaption>Smile detection · computer vision</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="edu reveal">
+        <h3 class="edu__title">Education</h3>
+        <div class="edu__grid">
+          <div class="edu__item">
+            <span class="logo"><img src="assets/img/logos/uw.svg" alt="University of Washington logo" loading="lazy" /></span>
+            <span class="edu__date">2025 - 2029</span>
+            <strong>University of Washington</strong>
+            <span>PhD, Biomedical Informatics · Seattle, WA</span>
+          </div>
+          <div class="edu__item">
+            <span class="logo"><img src="assets/img/logos/gwu.svg" alt="George Washington University logo" loading="lazy" /></span>
+            <span class="edu__date">2023 - 2025</span>
+            <strong>The George Washington University</strong>
+            <span>PhD student, Biostatistics · Washington, DC</span>
+          </div>
+          <div class="edu__item">
+            <span class="logo"><img src="assets/img/logos/berkeley.png" alt="UC Berkeley logo" loading="lazy" /></span>
+            <span class="edu__date">2019 - 2022</span>
+            <strong>University of California, Berkeley</strong>
+            <span>B.A., Data Science · Berkeley, CA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section section--tint" id="publications">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">03 · Publications</span>
+        <h2 class="section__title">Selected publications &amp; talks</h2>
+        <p class="section__intro">Author name in <strong>bold</strong>. Full list in my
+          <a href="assets/cv/CV_LanjingWang_2026_June.pdf" target="_blank" rel="noopener">CV</a>.</p>
+      </div>
+
+      <h3 class="pub__group reveal">Peer-reviewed &amp; published</h3>
+      <ol class="pubs">
+        <li class="pub reveal">
+          <p class="pub__title">Empowering Research With the American Heart Association Get With The Guidelines®
+            Registries Through Integration of a Database and Research Tools</p>
+          <p class="pub__authors">Beon C, <strong>Wang L</strong>, Manchanda V, Mallya P, Hong H, Picotte H,
+            Thomas K, Hall JL, Zhao J, Feng X.</p>
+          <p class="pub__meta"><em>Circulation: Cardiovascular Quality and Outcomes</em>, 2024;17(9):e010967.</p>
+          <div class="pub__row">
+            <span class="badge badge--pub">Journal</span>
+            <a class="pub__link" href="https://doi.org/10.1161/CIRCOUTCOMES.124.010967" target="_blank" rel="noopener">DOI ↗</a>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <p class="pub__title">Synthetic Data for the Get With The Guidelines® Stroke Registry</p>
+          <p class="pub__authors"><strong>Wang L</strong>, Manchanda V, Picotte H, Beon C, Hall JL, Zhao J, Feng X.</p>
+          <p class="pub__meta">Oral presentation · <em>AHA Scientific Sessions 2023</em>.</p>
+          <div class="pub__row">
+            <span class="badge badge--talk">Oral · AHA</span>
+            <a class="pub__link" href="https://doi.org/10.1161/JAHA.124.039667" target="_blank" rel="noopener">DOI ↗</a>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <p class="pub__title">Treatment Times and In-Hospital Mortality Among Patients with ST-Elevation
+            Myocardial Infarction Throughout the Waves of the COVID-19 Pandemic: Lessons Learned</p>
+          <p class="pub__authors">Zègre-Hemsey J, Goyal A, Poudel R, Thomas K, Ali M, Best P, Bieniarz M,
+            Fonarow G, French W, Granger C, Henry T, Hong H, Jollis J, Redlener M, Spier T, Stone H, Wahab F,
+            <strong>Wang L</strong>, Jacobs A.</p>
+          <p class="pub__meta"><em>COVID</em>, 2025;5:114.</p>
+          <div class="pub__row">
+            <span class="badge badge--pub">Journal</span>
+            <a class="pub__link" href="https://doi.org/10.3390/covid5080114" target="_blank" rel="noopener">DOI ↗</a>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="pub__group reveal">Under review</h3>
+      <ol class="pubs">
+        <li class="pub reveal">
+          <p class="pub__title">The Epidemiology of Pulmonary Hypertension in sub-Saharan Africa: A Systematic Report</p>
+          <p class="pub__authors">Zeder K, <strong>Wang L</strong>, Ngah V, Santi A, Robbins E, Mocumbi A,
+            Namuyonga J, Nyasulu P, Kovacs G, Humbert M, Strange G, Stewart S, Diao G, Maron B.</p>
+          <p class="pub__meta">Under review · <em>Pulmonary Circulation</em> (Wiley).</p>
+          <div class="pub__row"><span class="badge badge--review">Under review</span></div>
+        </li>
+        <li class="pub reveal">
+          <p class="pub__title">Systematic Literature Reviews With Two Multi-Agentic Systems and Human-in-the-Loop</p>
+          <p class="pub__authors">Zhao Z, Li Q, Wu Y, <strong>Wang L</strong>, Shi J, Xu Y, Xie E, Luo R, Ren Z.</p>
+          <p class="pub__meta">Under review · <em>STAI-X 2026</em>.</p>
+          <div class="pub__row"><span class="badge badge--review">Under review</span></div>
+        </li>
+      </ol>
+
+      <h3 class="pub__group reveal">Abstracts &amp; conference presentations</h3>
+      <ol class="pubs">
+        <li class="pub reveal">
+          <p class="pub__title">LLM-Assisted Generation of Dynamic Shallow Filters from Clinical Guidelines for
+            Oncology Literature Retrieval</p>
+          <p class="pub__authors"><strong>Wang L</strong>, Wang LL.</p>
+          <p class="pub__meta">Poster presentation · <em>AMIA 2026</em>.</p>
+          <div class="pub__row"><span class="badge badge--talk">Poster · AMIA</span></div>
+        </li>
+        <li class="pub reveal">
+          <p class="pub__title">The Prevalence of Pulmonary Hypertension in HIV in sub-Saharan Africa:
+            A Systematic Review and Meta-Analysis</p>
+          <p class="pub__authors">Zeder K, <strong>Wang L</strong>, Santi A, Ngah V, Robbins E, Diao G, Maron B.</p>
+          <p class="pub__meta">Oral presentation · <em>PVRI 2025</em>.</p>
+          <div class="pub__row"><span class="badge badge--talk">Oral · PVRI</span></div>
+        </li>
+        <li class="pub reveal">
+          <p class="pub__title">The Prevalence of Pulmonary Hypertension in Rheumatic Heart Disease /
+            Sickle Cell Disease in sub-Saharan Africa: A Systematic Review and Meta-Analysis</p>
+          <p class="pub__authors">Santi A, <strong>Wang L</strong>, Ngah V, Robbins E, Diao G, Maron B, Zeder K.</p>
+          <p class="pub__meta">Oral presentation · <em>PVRI 2025</em>.</p>
+          <div class="pub__row"><span class="badge badge--talk">Oral · PVRI</span></div>
+        </li>
+        <li class="pub reveal">
+          <p class="pub__title">The Prevalence of Pulmonary Hypertension in Sickle Cell Disease in
+            sub-Saharan Africa: A Systematic Review and Meta-Analysis</p>
+          <p class="pub__authors">Ngah V, <strong>Wang L</strong>, Santi A, Robbins E, Diao G, Maron B, Zeder K.</p>
+          <p class="pub__meta">Poster presentation · <em>European Respiratory Society (ERS) 2025</em>.</p>
+          <div class="pub__row"><span class="badge badge--talk">Poster · ERS</span></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="contact__inner reveal">
+        <span class="section__eyebrow">04 · Contact</span>
+        <h2 class="contact__title">Let's build the future of <span class="gradient-text">health AI</span>.</h2>
+        <p class="contact__lede">Open to research collaborations in clinical LLMs, evidence synthesis, and
+          real-world data. The best way to reach me is email.</p>
+        <div class="contact__links">
+          <a href="mailto:lanjingw@uw.edu" class="btn btn--primary">lanjingw@uw.edu</a>
+          <a href="https://www.linkedin.com/in/maggie-lanjing-wang" class="btn" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/maggielanjingwang" class="btn" target="_blank" rel="noopener">GitHub</a>
+          <a href="assets/cv/CV_LanjingWang_2026_June.pdf" class="btn" target="_blank" rel="noopener">CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>© <span id="year"></span> Lanjing (Maggie) Wang</span>
+      <span class="footer__meta">Built with care · Seattle, WA</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
